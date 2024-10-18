@@ -1,0 +1,102 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.space {
+    margin-top: 20px;
+    background-color: #e0ebf3;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+.box
+{
+    display: grid;
+    place-items: center;
+}
+.space h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.input-group {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+.list, .da {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+.list {
+    flex: 2;
+}
+.add {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add:hover {
+    background-color: darkblue;
+}
+.re {
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    background-color: #ff4d4d;
+    cursor: pointer;
+}
+.re:hover {
+    background-color: #ff3333;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.container
+{
+    margin-top: 30px;
+    height: 300px;
+    width: 500px;
+    overflow:auto;
+    cursor: pointer;
+}
+.alert
+{
+    color: red;
+}
+.tick
+{
+    background-color: rgb(228, 231, 241);
+    text-decoration: line-through;
+}
+.cross
+{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.background-button
+{
+    background-color: rgb(228, 231, 241);
+}
+.da{
+    cursor:pointer;
+}
